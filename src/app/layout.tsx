@@ -19,8 +19,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "EscrowGuild",
-  description: "Escrow Guild is a platform to leverage AI Agents for your web3 adventures",
+  title: "Contrakt",
+  description: "Contrakt: Simplifying Legal Agreements, Empowering Ownership",
 };
 
 export default function RootLayout({

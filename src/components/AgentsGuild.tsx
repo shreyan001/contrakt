@@ -79,21 +79,21 @@ export function AgentsGuildInterface() {
     <div className="flex flex-col h-screen bg-black text-white font-mono">
       <nav className="flex justify-between items-center p-4 border-b border-gray-800">
         <div className="flex items-center space-x-2">
-          <Image src="/guild.png" alt="Agents Guild Logo" width={35} height={35} />
-          <span className="text-xl font-bold">Escrow Guild</span>
+          <Image src="/conlogo.png" alt="Contrakt Logo" width={35} height={35} />
+          <span className="text-xl font-bold">Contrakt</span>
         </div>
        <ConnectButton/>
       </nav>
       <div className="flex flex-1 overflow-hidden">
-        <div className="w-[30%] bg-[#FFC700] text-black p-4 flex flex-col">
-          <h1 className="text-3xl font-bold mb-6">Escrow Guild Dashboard</h1>
+        <div className="w-[30%] bg-[#90EE90] text-black p-4 flex flex-col">
+          <h1 className="text-3xl font-bold mb-6">Contrakt Dashboard</h1>
           <div className="mb-6">
        <PortfolioWallet/>
           </div>
           <div className="mb-6">
-            <h2 className="text-xl font-bold mb-2">Recent Projects</h2>
+            <h2 className="text-xl font-bold mb-2">Recent Contracts</h2>
             <ul className="space-y-2">
-              {["Next.js Integration", "DeFi Market Analysis", "OpenAI SDK Implementation"].map((project, index) => (
+              {["NDA Implementation", "Service Agreement", "Collabo ration Agreement"].map((project, index) => (
                 <li key={index} className="bg-black text-white p-2">
                   {project}
                 </li>

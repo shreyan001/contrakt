@@ -25,8 +25,8 @@ createWeb3Modal({
   themeMode: 'dark',
   themeVariables: {
     '--w3m-font-family': 'monospace, sans-serif',
-    '--w3m-accent': '#FFC700',
-    '--w3m-color-mix': '#FFC700',
+    '--w3m-accent': '#90EE90',
+    '--w3m-color-mix': '#90EE90',
     '--w3m-color-mix-strength': 3,
     '--w3m-border-radius-master': '0px',
     '--w3m-z-index': 999

@@ -73,8 +73,8 @@ type Asset = {
     }
 
     return (
-      <div className="w-[90%] bg-black text-white font-mono p-3 rounded-lg border border-[#FFC700]">
-        <h2 className="text-xl font-bold mb-3 text-[#FFC700]">Agent Resources</h2>
+      <div className="w-[90%] bg-black text-white font-mono p-3 rounded-lg border border-[#90EE90]">
+        <h2 className="text-xl font-bold mb-3 text-[#90EE90]">Agent Resources</h2>
         <div className="mb-4 bg-gray-900 p-3 rounded-lg">
           <div className="grid grid-cols-3 gap-2 text-sm">
             <div>
@@ -87,12 +87,12 @@ type Asset = {
             </div>
             <div>
               <p className="text-xs text-gray-400">Profit</p>
-              <p className="text-[#FF69B4]">+{profit.toFixed(2)}%</p>
+              <p className="text-[#90EE90]">+{profit.toFixed(2)}%</p>
             </div>
           </div>
         </div>
         <div className="space-y-2">
-          <h3 className="text-sm font-bold text-[#FFC700] mb-1">Available Assets</h3>
+          <h3 className="text-sm font-bold text-[#90EE90] mb-1">Available Assets</h3>
           {assets.map((asset, index) => (
             <div key={index} className="bg-gray-900 p-2 rounded-lg text-xs">
               <div className="flex justify-between items-center">
